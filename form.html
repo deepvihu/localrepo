@@ -1,0 +1,54 @@
+<html>
+
+	<head>
+		<title>NEW FORM</title>
+	
+	</head>
+	
+	<body>
+	
+	<form method = "post" action = "/success.html">
+	<label for="firstname">Enter First Name:</label> <input type="text" id="firstname" name="firstname" placeholder = "First Name" required><br>
+	
+	Enter Last Name: <input type = "text" id = "lastname" name= "lastname" autofocus required><br>
+	
+	Enter Address: <textarea rows = "5" cols = "20" name = "address"></textarea><br>
+	Pin Code: <input type = "text" id = "pincode" name = "pincode" pattern = "[0-9]{6}" title = "111111"><br>
+	EMail ID: <input type = "email" id = "email" name = "email"><br>
+	Enter Password: <input type = "password" id = "pwd" name = "pwd"><br>
+	
+	
+	<input type = "search" id = "search"><br>
+	
+	Date of Joining: <input type = "number" min = "1" max = "31" id = "doj" name = "doj" value = "1"/>
+	<input type "number" min = "1" max = "12" id = "moj" name = "moj" value = "1"/>
+	<input type "number" min = "2000" max = "2022" id = "yoj" name = "yoj" value = "2022"/>
+
+	<br>
+	
+	Date of Birth: <input type = "date" id = "dob"><br>
+	
+	<input type = "range" min = "0" max = "10" step = "2"><br>
+	<input type = "radio" id = "html" name = "language" value = "html" checked>HTML
+	<input type = "radio" id = "css" name = "language">CSS
+	<input type = "radio" id = "javascript" name = "language">Javascript
+	
+	<br><br>
+	
+	Select Stream <select id = "stream" name = "stream" size = "4" multiple>
+	<option value = "java+sel"> Java+Sel </option>
+	<option value = "c#+sel"> C#+Sel </option>
+	<option value = "python+sel" selected> Python+Sel </option>
+	<option value = "apitesting"> API Testing </option>
+	<option value = "mobiletesting"> Mobile Testing </option>
+	<option value = "sdet"> SDET </option>
+	</select>
+	<br>
+	<input type = "submit" value = "Submit">
+	
+	
+	</form>
+		<p> Adding for Git </p>
+	</body>
+	
+</html>
